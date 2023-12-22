@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.store, .cart {
+    border: 1px solid #4a199a;
+    padding: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.store{
+    background-color: aliceblue;
+}
+
+.cart {
+    position: absolute;
+    top: 10px;
+}
+
+.item, #cart {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #dc1414;
+    cursor: grab;
+}
+
+.cart {
+    top: 40%;
+    background-color: #d0b7ff;
+}
+
+.cart-items {
+    min-height: 100px;
+    border: 2px dashed #965dff;
+    background-color: aliceblue;
+}
+
+h2{
+    text-align: center;
+}

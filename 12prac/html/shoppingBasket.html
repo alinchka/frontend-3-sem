@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!--Головной раздел сайта-->
+<head>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/styleBasket.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книжный магазин</title>
+    <link rel="icon" href="../img/kitty.png"><!-- 32×32 -->
+</head>
+<body>
+
+<header>
+    <div class = "zakrep">
+        <div class="geo-phone-entrance">
+            <p class="geo">Россия, Москва</p>
+            <p class="geo">Адреса магазинов</p>
+            <a class="geo" href="tel:89109689294">8-999-999-91-91 - круглосуточно </a>
+            <a href="../html/login.html" class="reg">Вход и регистрация</a>
+        </div>
+        <div class="logo">
+            <a href="../html/index.html">
+             <img src="../img/kitty.png" width="80" height="80" />
+            </a>
+        </div>
+        <div class="name">
+            <style>
+                .name{
+                    font-size: 50px; }
+            </style>Твоя корзина в любимом книжном</div>
+    </div>
+</header>
+
+<main>
+    <div class="shopping-cart">
+        <!-- Title -->
+        <div class="title">
+          Shopping Bag
+        </div>
+   
+        <!-- Товар #1 -->
+        <div class="item">   
+          <div class="image">
+            <img src="../img/bernettsad.jpg" width="120" height="170" alt="" />
+          </div>
+   
+          <div class="quantity">
+            <button class="plus-btn" type="button" name="button" onClick="changePlus();">
+              +
+            </button>
+            <input type="text" name="name" id="howmach" value="1">
+            <button class="minus-btn" type="button" name="button" onClick="changeMinus();">
+              -
+            </button>
+          </div>
+          <p class="total-price">250</p>
+      </div>
+</main>
+
+<footer>
+    <address>
+        <div class="textcols">
+            <div class="textcols-item1">
+                <div class="foothead"><h1>Книжный магазин</h1></div>
+                <p>Наш книжный магазин – сеть книжных магазинов, 
+                    <br>успешно работающих в Москве и других 
+                    <br>регионах России.
+                    <br><br>А ещё это – крупный интернет-магазин книг.
+                    <br> В нём вы можете заказывать книги в любое время 
+                    <br>24 часа в сутки.</p>
+            </div>
+            <div class="textcols-item2">
+                <div class="foothead"><h1>В наших магазинах</h1></div>
+                <a class="foota" href="#">Адреса магазинов</a>
+                <br><a class="foota" href="#">Наши партнёры</a>
+                <br><a class="foota" href="tel:89109689294">Позвонить по номеру</a>
+                <br><a class="foota" href="#">О компании</a>
+                <br><a class="foota" href="https://www.consultant.ru/document/cons_doc_LAW_305/">Закон о защите прав потребителей</a>
+                <br><a class="foota" href="#">Хотите у нас работать?</a>
+            </div>
+            <div class="textcols-item3">
+                <div class="foothead"><h1>В интернет-магазине</h1></div>
+                <a class="foota" href="#">Доставка и оплата</a>
+                <br><a class="foota" href="#">Бонусная программа</a>
+                <br><a class="foota" href="#">Вопросы и ответы</a>
+                <br><a class="foota" href="#">Обратная связь</a>
+                <br><a class="foota" href="mailto:zubeeva_alina@mail.ru">Написать письмо</a>
+                <br><a class="foota" href="#">Акции</a>
+            </div>
+        </div>
+    </address>
+    <br>
+    <div class="icons">
+        <span id="vk"><i class="fa-brands fa-vk"></i></span>
+        <span id="ig"><i class="fa-brands fa-instagram"></i></span>
+        <span id="tg"><i class="fa-brands fa-telegram"></i></span>
+    </div>
+    <br><br>
+</footer>
+<script src="../js/hyina.js"></script>
+
+</body>

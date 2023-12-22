@@ -1,0 +1,68 @@
+aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+  }
+  .Topic1{
+    position: fixed;
+    top: 15px;
+    background: rgb(255, 255, 255);
+  }
+  .header-img{
+    float: left;
+    padding: 0 15px 10px 0;
+  }
+  section:active {
+    color: rgb(6, 0, 125);
+  }
+  a:hover {
+    color: rgb(255, 0, 0);
+  }
+  h1 {
+    color: rgb(27, 11, 1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
+  
+  h2 {
+    color: rgb(87, 36, 0);
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+  }
+  
+  h3 {
+    color: rgb(255, 147, 47);
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+  }
+  p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+  }
+  .header-img {
+    height: 8%;
+    width: 8%;
+}
+
+  /*селектор потомков
+address h2 {
+    font-size: 35px;
+    color: rgb(36, 77, 0);
+  }
+  
+  сестринский селектор
+  h2 + p {
+    color: rgb(147, 23, 102);
+    font-weight: 600;
+  }
+  
+  дочерний селектор
+  ul > li {
+    color: rgb(238, 97, 97);
+    font-weight: 600;
+  }*/
+  

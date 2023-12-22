@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Сортировки и фильтры</title>
+</head>
+<body>
+  <div class="cart">
+    <h1>Список книг</h1>
+    <div class="items" id="itemsContainer"></div><br>
+    <div class="items" id="itemsContainer2"></div>
+    <div class="numbers">
+        <input type="number" id="minPrice" placeholder="min">
+        <input type="number" id="maxPrice" placeholder="max">
+    </div><br>
+    <button class="btn" onclick="filterItemsByPrice()">Фильтр</button>
+    <button class="btn" onclick="sortItemsUp()">Сортировка по возрастанию</button>
+    <button class="btn" onclick="sortItemsDown()">Сортировка по убыванию</button>
+    
+  </div>
+  <!--Каталог книжек - классика-->
+  <ul class="ul-classic">
+    <li class="li-classic">
+        <img src="../img/bernettsad.jpg">
+    </li>
+    <li class="li-classic">
+        <img src="../img/brontepereval.jpg">
+    </li>
+  </ul>
+  <div class="container"></div>
+  <div id="content">
+    <p>Ниже будут Mew.</p>
+  </div>
+  <script src="../js/task4.js"></script>
+</body>
+</html>

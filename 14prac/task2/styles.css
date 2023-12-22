@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainImage {
+    max-width: 720px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.thumbnails {
+    display: flex;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 100 px;
+    margin-right: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/style_log.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&family=Nunito&family=Pacifico&family=Roboto:ital,wght@0,400;1,300&family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Orbitron:wght@800&family=Raleway:ital,wght@0,200;1,200;1,500;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Oi&family=Orbitron:wght@800&family=Raleway:ital,wght@0,200;1,200;1,500;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <span></span>
+    <span></span>
+    <span></span>
+    <p>
+
+    <form id="captchaForm" onsubmit="validateCaptcha(event)">
+      <div id="captcha"></div>
+      <input type="text" id="captchaInput" placeholder="Введите капчу..." />
+      <button type="submit" id="submitButton">Отправить</button>
+    </form>
+
+    <script src="../js/scriptLog.js"></script>
+    <form action="" method="get">
+      <fieldset>
+        <legend>Вход</legend>
+        <div class="aaa">
+          <div class="fild1">
+            <p>
+              <input
+                class="input_value"
+                type="text"
+                name="surname"
+                required
+                placeholder="Фамилия"
+              />
+            </p>
+            <p>
+              <input
+                class="input_value"
+                type="text"
+                name="name"
+                placeholder="Имя"
+                required
+              />
+            </p>
+          </div>
+          
+          <div class="fild2">
+            <p>
+              <input
+                class="input_value"
+                type="email"
+                name="email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                required
+                placeholder="Ваша почта"
+              />
+            </p>
+            <p>
+              <input
+                class="input_value"
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Ваш пароль"
+                required
+              />
+            </p>
+          </div>
+        </div>
+        
+        <div cLass="questions">
+        
+          <a href="#" class="button">Нет аккаунта? Зарегистрируйтесь</a>
+          <a href="#" class="button">Забыли пароль?</a>
+        </div>
+        <br><br>
+
+        <p>
+          <input type="submit" id="button-g" disabled onclick="fun()" />
+        </p>
+      
+      </fieldset>
+    </form>
+  </body>
+</html>

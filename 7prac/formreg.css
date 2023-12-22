@@ -1,0 +1,137 @@
+body{
+  background:rgb(207, 191, 248);
+}
+@keyframes animate {
+  0%, 100%{
+      transform: translateY(-40px) translateX(10px);
+  }
+  50%{
+      transform: translateY(40px) translateX(-10px);
+  }
+}
+.square:nth-child(1){
+  top:-50px;
+  right:-60px;
+  width:100px;
+  height:100px;
+}
+.square:nth-child(2){
+  bottom:50px;
+  right:-60px;
+  width:80px;
+  height:80px;
+  z-index:2;
+}
+.square:nth-child(3){
+  top:150px;
+  left:-100px;
+  width:120px;
+  height:120px;
+}
+.square:nth-child(4){
+  bottom:-40px;
+  left:100px;
+  width:50px;
+  height:50px;
+}
+.square:nth-child(5){
+  top:-80px;
+  left:140px;
+  width:60px;
+  height:60px;
+}
+.square{
+  position:absolute;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  animation: animate 10s linear infinite;
+  backdrop-filter: blur(5px);
+  animation-delay:calc(-1s * var(--i));
+  backdrop-filter: blur(5px);
+}
+.ph{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #161616;
+  padding:0;
+  flex-wrap: wrap;
+  margin:0;
+}
+.logbox{
+  position:relative;
+}
+.box{
+  position:relative;
+  width:450px;
+  min-height:350px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
+.form{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background: rgb(255,255,255);
+  border-radius: 20px; 
+}
+.form h3{
+  position:relative;
+  color:white;
+  font-size: 24px;
+  font-weight: 600;
+  margin-left:50px;
+  top:15px;
+}
+.form h3:before{
+  content:'';
+  position:absolute;
+  background-color: white;
+  height:4px;
+  width:80px;
+  left:0;
+  bottom:-10px;
+}
+.form input::placeholder{
+  color:#b6b6b6
+}
+.form input{
+  width:90%;
+  background: rgba(255, 255, 255, 0.2);
+  border:none;
+  outline:none;
+  padding:10px 20px;
+  border-radius: 35px;
+  margin-right: 20px;
+  font-size: 16px;
+  color:white;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+.form #btn{
+  width:30%;
+  height:auto;
+  padding:10px 5px;
+  border-radius: 35px;
+  margin-right: 20px;
+  margin-bottom:5px;
+  color:rgb(44, 44, 44);
+  background-color: white;
+  font-weight: 600;
+}
+.form .forget{
+  margin-left: 20px;
+}
+.form p{
+  color:white;
+  font-weight: 600;
+  margin-top:0;
+  margin-bottom:0;
+}
+.form a{
+  color:orangered;
+  font-weight: 600;
+  text-decoration: none;
+}

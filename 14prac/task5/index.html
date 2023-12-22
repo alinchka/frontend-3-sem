@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Перетаскивание в корзину</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="cart">
+    <h2>Покупочки</h2>
+    <div id="cart" class="cart-items" droppable="true"></div>
+    <p id="total">Итого: 0р</p>
+</div>
+
+<div class="store">
+    <div class="item" data-price="600" draggable="true">Покупочка - 600р</div>
+    <div class="item" data-price="300" draggable="true">Покупочка - 300р</div>
+    <div class="item" data-price="450" draggable="true">Покупочка - 450р</div>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

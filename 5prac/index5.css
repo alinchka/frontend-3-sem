@@ -1,0 +1,400 @@
+body{
+  overflow-x: hidden;
+  margin: 0px;
+  
+}
+main{
+  padding-top: 150px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+h1 {
+  color: rgb(48, 8, 141);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+ul {
+  list-style: none; 
+  padding-left: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
+}
+a:hover {
+  color: #3b67f7;
+}
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blockquote1 {
+  padding-left: 50px;
+  border-left: 4px solid #e2e2e2;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+.blockquote1 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 28px;
+  color: #333333;
+  white-space: normal;
+}
+.blockquote1 cite {
+  font-style: italic
+}
+.ul-classic {
+  display: flex;
+  justify-content: space-between;
+
+}
+.li-classic{
+  margin: 10px;
+}
+.li-classic img {
+  width: 170px;
+  height: 260px;
+  border-radius: 10px;
+}
+.reg {
+  top: 0px;
+  text-align: right;
+  margin-left: auto;
+  width: max-content;
+  margin-right: 5%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  position: fixed;
+  right: 0;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 1;
+}
+.geo-phone-entrance {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 35px;
+  background: #7c9bff;
+  color: white;
+}
+.geo {
+  margin-right: 20px;
+  padding-left: 20px;
+  font-size: 14px; 
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+aside {
+  width: 35%;
+  margin-top: 60px;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #85a2ff;;
+  font-style: italic;
+  color: #0f18a1;
+}
+.map{
+  margin: 20px;
+}
+.logo{
+  margin-right: 2%;
+  margin-left: 2%;
+  float: left; 
+}
+.zakrep{
+  position: fixed;
+  width: 100%;
+	background: #85a2ff;
+	height: 120px;
+  margin-bottom: 100px;
+}
+.name{
+  color: rgb(255, 255, 255);
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  font-size: 63px; 
+}
+.headline{
+  text-align: center
+}
+.menu {
+  position: fixed;
+  margin-top: 100px;
+	width: 100%;
+	display: table;
+}
+.menu ul {
+	display: table-row;
+}
+.menu li {
+	display: table-cell;
+  
+	background: #85a2ff;
+}
+.menu ul li:hover, .menu a:hover {
+	background: #6186ff;
+}
+.menu li a {
+	display: block;
+	padding: 8px 15px;
+	color: #fff;
+	text-align: center;
+}
+.katalog::after {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: .255em;
+	vertical-align: .255em;
+	content: "";
+	border-top: 3px solid;
+	border-right: 3px solid transparent;
+	border-bottom: 0;
+	border-left: 3px solid transparent;
+}
+.menu li:hover ul  {
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	background: #85a2ff;
+	margin: 0;
+	padding: 10px 20px;
+	width: 205px;
+	z-index: 9999;
+}
+.menu ul ul  {
+	display: none;
+}
+.menu ul ul li  {
+	display: block;
+	background: #85a2ff;
+	padding: 5px 0;
+}
+.menu ul ul li a  {
+	display: block;
+	padding: 0;
+	background: #85a2ff;
+	text-align: left;
+}
+#burger {
+  visibility: hidden;
+}
+
+@media (max-width: 1544px) {
+  .ul-classic {
+    
+    justify-content: center;
+  }
+
+  .li-classic {
+    flex-basis: 25%;
+    margin-bottom: 20px;
+    margin: 10px;
+  }
+  #burger {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 1383px) {
+  label.menu-btn{
+    position: fixed;
+    margin-left: 70%;
+  }
+  .menu{
+    display: block;
+  }
+  .menu ul{
+    position: fixed;
+    background-color: #85a2ff;
+    right: 0;
+  }
+  .menu li{
+    display: block;
+  }
+  .katalog:after{
+    content: none;
+  }
+  .menu li:hover ul{
+    display: none;
+  }
+  .menu-btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 11;
+  }
+  .geo{
+    visibility: hidden;
+  }
+  .reg{
+    top: 0px;
+    text-align: left;
+    margin-left: 5%;
+    width: max-content;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    position: fixed;
+    left: 0;
+    font-size: 14px;
+    padding: 10px;
+    z-index: 1;
+  }
+  .menu-btn > span,
+  .menu-btn > span::before,
+  .menu-btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(17, 10, 166);
+    transition-duration: 0.25s;
+  }
+  .menu-btn > span::before {
+    content: "";
+    top: -8px;
+  }
+  .menu-btn > span::after {
+    content: "";
+    top: 8px;
+  }
+  #burger {
+    opacity: 0;
+  }
+  #burger:checked ~ .menu-btn > span {
+    transform: rotate(45deg);
+  }
+  #burger:checked ~ .menu-btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #burger:checked ~ .menu-btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+
+  #burger:checked {
+    visibility: visible;
+    left: 0;
+  }
+  .menu {
+    display: none;
+    position: absolute;
+    height: max-content;
+    width: max-content;
+    user-select: none;
+    border-radius: 10px;
+    top: 120px;
+    padding: 0;
+    margin: 0;
+    right: 0;
+  }
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .katalog ul{
+    visibility:hidden;
+  }
+  #burger:checked + label + .menu {
+    display: block;
+    animation: show 0.5s ease;
+  }
+}
+
+@media (max-width: 1360px) {
+  .ul-classic{
+    flex-wrap: wrap;
+  }
+  .name {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 1010px) {
+  .name {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 40px;
+  }
+  .piar{
+    display: none;
+  }
+  label.menu-btn {
+    margin-left: 50%;
+  }
+}
+
+@media (max-width: 860px) {
+  .name {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 688px) {
+  .name {
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    font-size: 32px;
+  }
+  iframe{
+    height: max-content;
+    width: max-content;
+  }
+}
+
+@media (max-width: 600px) {
+  .name {
+    position: absolute;
+    font-size: 28px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  iframe{
+    height: max-content;
+    width: max-content;
+  }
+  label.menu-btn {
+    margin-left: 45%;
+  }
+}
+
+@media (max-width: 470px) {
+  .name {
+    font-size: 20px;
+
+  }
+  label.menu-btn {
+    margin-left: 32%;
+  }
+}

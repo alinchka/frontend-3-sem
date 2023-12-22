@@ -1,0 +1,101 @@
+aside {
+  width: 40%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: italic;
+  color: #29627e;
+}
+header{
+  position: sticky;
+  top: 0px;
+  background: rgb(255, 255, 255);
+}
+.menu{
+  position: absolute;
+  top: 56px; 
+  background-color: rgb(232, 231, 251);
+  display: inline;
+  padding-left: 500px;
+  padding-right: 500px;
+  text-decoration: underline overline rgb(6, 0, 125);;
+}
+.header-img{
+  
+  margin-right: 1%;
+  float: left; 
+}
+.fixic{
+  position: fixed;
+  left: 1300px;
+  top: 0px;
+  border-style: solid;
+  border-color: rgb(232, 231, 251);
+}
+.gridder {
+  display: grid;
+}
+.gr1{
+  border-style: solid;
+  border-color: rgb(232, 231, 251);
+}
+.mda{
+  position: relative;
+  left: 500px;
+}
+.posire{
+  position: absolute;
+  top: 130px;
+  left: 1000px;
+}
+section:active {
+  color: rgb(6, 0, 125);
+}
+a:hover {
+  color: rgb(255, 0, 0);
+}
+h1 {
+  color: rgb(27, 11, 1);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 3em;  
+}
+
+h2 {
+  color: rgb(87, 36, 0);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  color: rgb(255, 147, 47);
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+.header-img {
+  height: 3%;
+  width: 3%;
+}
+
+/*селектор потомков
+address h2 {
+  font-size: 35px;
+  color: rgb(36, 77, 0);
+}
+
+сестринский селектор
+h2 + p {
+  color: rgb(147, 23, 102);
+  font-weight: 600;
+}
+
+дочерний селектор
+ul > li {
+  color: rgb(238, 97, 97);
+  font-weight: 600;
+}*/

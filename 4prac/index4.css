@@ -1,0 +1,167 @@
+body{
+  margin: 0px;
+}
+.geo-phone-entrance {
+  display: flex;
+  align-items: center;
+  justify-content: 100px;
+  width: auto;
+  height: 35px;
+  background: #7c9bff;
+  color: white;
+}
+.reg {
+  text-align: right;
+  margin-left: auto;
+  width: max-content;
+  margin-right: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  position: fixed;
+  right: 0;
+  font-size: 14px;
+ 
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 1;
+}
+.geo {
+  margin-right: 20px;
+  padding-left: 20px;
+  font-size: 14px; 
+}
+aside {
+  width: 40%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: italic;
+  color: #29627e;
+}
+.logo{
+  margin-right: 2%;
+  margin-left: 2%;
+  float: left; 
+}
+.zakrep{
+  position: fixed;
+  width: 100%;
+	background: #85a2ff;
+	height: 120px;
+  margin-bottom: 100px;
+}
+.name{
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  font-size: 63px; 
+}
+ul {
+  list-style: none; 
+  margin: 0 auto;
+}
+nav {
+  display: block;
+  width: 660px;
+  margin: 0 auto 30px;
+}
+a {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
+}
+.menu {
+  position: fixed;
+  padding-top: 120px;
+	width: 100%;
+	display: table;
+}
+.menu ul {
+	display: table-row;
+}
+.menu li {
+	display: table-cell;
+  
+	background: #85a2ff;
+}
+.menu ul li:hover, .menu a:hover {
+	background: #6186ff;;
+}
+.menu li a {
+	display: block;
+	padding: 8px 15px;
+	color: #fff;
+	text-align: center;
+}
+.katalog:after {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: .255em;
+	vertical-align: .255em;
+	content: "";
+	border-top: 3px solid;
+	border-right: 3px solid transparent;
+	border-bottom: 0;
+	border-left: 3px solid transparent;
+}
+.menu li:hover ul  {
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	background: #85a2ff;
+	margin: 0;
+	padding: 10px 20px;
+	width: 205px;
+	z-index: 9999;
+}
+.menu ul ul  {
+	display: none;
+}
+.menu ul ul li  {
+	display: block;
+	background: #85a2ff;
+	padding: 5px 0;
+}
+.menu ul ul li a  {
+	display: block;
+	padding: 0;
+	background: #85a2ff;
+	text-align: left;
+}
+main{
+  padding-top: 130px;
+}
+section:active {
+  color: rgb(6, 0, 125);
+}
+a:hover {
+  color: #3b67f7;
+}
+h1 {
+  color: rgb(27, 11, 1);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 3em;  
+}
+
+h2 {
+  color: rgb(87, 36, 0);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  color: rgb(255, 147, 47);
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
